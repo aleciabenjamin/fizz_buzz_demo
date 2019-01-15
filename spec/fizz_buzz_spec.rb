@@ -6,6 +6,8 @@ describe 'fizz_buzz' do
         expect(fizz_buzz(1)).to eq 1
     end
 
-    
+    it 'returns Fizz if number is divisible by 3' do
+        expect(fizz_buzz(3)).to eq 'Fizz'
+    end
 
 end
